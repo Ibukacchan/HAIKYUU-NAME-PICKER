@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Haikyuu!! Selection Arena",
+  "short_name": "Selection Arena",
+  "description": "Haikyuu-inspired classroom player picker and team generator.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101116",
+  "theme_color": "#111318",
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
