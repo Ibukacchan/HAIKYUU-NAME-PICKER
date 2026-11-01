@@ -1,5 +1,11 @@
-const CACHE = "selection-arena-pwa-v1";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-512.png"];
+const CACHE = "selection-arena-pwa-v2";
+const ASSETS = [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./icon-512.png",
+  "./selection_arena_original_anthem.wav"
+];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
   self.skipWaiting();
